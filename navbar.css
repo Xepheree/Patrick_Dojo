@@ -33,24 +33,6 @@ body{
   display: none;
 }
 
-@media (max-width: 460px) {
-  .mobile-logo{
-    display: block;
-  }
-
-  .logo{
-    margin-left: 10px;
-  }
-
-  .desktop-logo{
-    display: none;
-  }
-
-  .left-section{
-    min-width: 80px;
-  }
-}
-
 /* --------------------------------------- */
 
 .middle-section{
@@ -92,4 +74,37 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 460px) {
+  .mobile-logo{
+    display: block;
+  }
+
+  .logo{
+    margin-left: 10px;
+  }
+
+  .desktop-logo{
+    display: none;
+  }
+
+  .left-section{
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 300px){
+  .search-bar, .search-button{
+    display: none;
+  }
+
+  .mobile-logo{
+    display: none;
+  }
+
+  .desktop-logo{
+    display: block;
+    height: 40px;
+  }
 }
