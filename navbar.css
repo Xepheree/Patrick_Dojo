@@ -29,6 +29,28 @@ body{
   margin-left: 30px;
 }
 
+.mobile-logo{
+  display: none;
+}
+
+@media (max-width: 460px) {
+  .mobile-logo{
+    display: block;
+  }
+
+  .logo{
+    margin-left: 10px;
+  }
+
+  .desktop-logo{
+    display: none;
+  }
+
+  .left-section{
+    min-width: 80px;
+  }
+}
+
 /* --------------------------------------- */
 
 .middle-section{
@@ -67,7 +89,7 @@ body{
 
 .right-section{
   min-width: 80px;
-}
-.burger-menu{
-  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

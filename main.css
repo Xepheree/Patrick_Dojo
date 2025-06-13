@@ -1,0 +1,27 @@
+*{
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+.main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome-message-wrapper{
+  width: 60vw;
+}
+
+.welcome-message{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.site-description{
+  text-align: center;
+  font-size: 20px;
+
+}
